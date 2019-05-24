@@ -10,6 +10,6 @@ The following C# based examples are available
 - GetDocumentSignersList
 - GetDocumentTemplatesList
 
-See [**Program.cs** in **samples/C#/ConsoleApp**](samples/C#/ConsoleApp/Program.cs)
+See [**Program.cs** in **samples/C#/ConsoleApp**](samples/C%23/ConsoleApp/Program.cs)
 
 Please make sure to modify the configuration file **app.config** first.
