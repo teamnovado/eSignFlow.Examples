@@ -7,6 +7,7 @@ The following C# based examples are available
 - CreateDocumentWithExternalSigner
 - CreateDocumentWithOrderedSigners
 - CreateDocumentWithReceivers
+- CreateDraftDocument
 - GetDocumentSignersList
 - GetDocumentTemplatesList
 
