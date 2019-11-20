@@ -15,6 +15,7 @@ namespace ConsoleApp.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public TemplateType Type { get; set; }
+        public bool ForceDraft { get; set; }
         public bool Eid { get; set; }
         public int Language { get; set; }
         public ICollection<OrganisationGroupModelInfo> PermittedOrganisationGroups { get; set; }

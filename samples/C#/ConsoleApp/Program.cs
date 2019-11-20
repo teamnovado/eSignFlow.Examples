@@ -21,6 +21,8 @@ namespace ConsoleApp
             await new CreateDocumentWithExternalSigner().Execute();
             //Create a document with receivers
             await new CreateDocumentWithReceivers().Execute();
+            //Create a draft document
+            await new CreateDraftDocument().Execute();
 
             //This test fetches the list of possible signers: persons and groups
             await new GetDocumentSignersList().Execute();
