@@ -42,8 +42,8 @@ namespace ConsoleApp.Tests
 
             Http = HttpClientFactory.Create();
             Http.BaseAddress = baseUri;
-            Http.DefaultRequestHeaders.Add("X-Verifieer-API-Key", apiKey);
-            Http.DefaultRequestHeaders.Add("X-Verifieer-Identity-NRN", apiIdentityNrn);
+            Http.DefaultRequestHeaders.Add("X-eSignFlow-API-Key", apiKey);
+            Http.DefaultRequestHeaders.Add("X-eSignFlow-Identity-NRN", apiIdentityNrn);
         }
 
         protected string Serialize(object o)
