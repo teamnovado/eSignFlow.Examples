@@ -24,7 +24,7 @@ namespace ConsoleApp.Tests
             Logger.WriteLine("Uploaded pdf. Returned fileId = {0:D}", fileId);
             Logger.WriteLine();
 
-            //Create a CreateDocumentsRequest and post it to Verifieer
+            //Create a CreateDocumentsRequest and post it to eSignFlow
             //This returns a CreateDocumentsResponse
 
             int.TryParse(ConfigurationManager.AppSettings["TemplateId"], out int templateId);

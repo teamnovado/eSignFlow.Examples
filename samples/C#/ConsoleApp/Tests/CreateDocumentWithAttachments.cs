@@ -51,7 +51,7 @@ namespace ConsoleApp.Tests
 
             Logger.WriteLine();
 
-            //Create a CreateDocumentsRequest and post it to Verifieer
+            //Create a CreateDocumentsRequest and post it to eSignFlow
             //This returns a CreateDocumentsResponse
 
             int.TryParse(ConfigurationManager.AppSettings["SignerUserId.1"], out int signerUserId);

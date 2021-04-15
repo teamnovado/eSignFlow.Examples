@@ -22,7 +22,7 @@ namespace ConsoleApp.Tests
             Logger.WriteLine("Uploaded TestFile.pdf. Returned fileId = {0:D}", fileId);
             Logger.WriteLine();
 
-            //Create a CreateDocumentsRequest and post it to Verifieer
+            //Create a CreateDocumentsRequest and post it to eSignFlow
             //This returns a CreateDocumentsResponse
 
             int.TryParse(ConfigurationManager.AppSettings["SignerUserId.1"], out int signerUserId1);
@@ -35,8 +35,8 @@ namespace ConsoleApp.Tests
             };
             var receivers = new[]
             {
-                new DocumentReceiver { Email = "verifieer.document.receiver.1@mailinator.com" },
-                new DocumentReceiver { Email = "verifieer.document.receiver.2@mailinator.com" }
+                new DocumentReceiver { Email = "eSignFlow.document.receiver.1@mailinator.com" },
+                new DocumentReceiver { Email = "eSignFlow.document.receiver.2@mailinator.com" }
             };
             var request = new CreateDocumentsRequest
             {
